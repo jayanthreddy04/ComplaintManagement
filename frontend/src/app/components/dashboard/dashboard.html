@@ -1,0 +1,16 @@
+<div class="dashboard-container">
+  <header class="dashboard-header">
+    <h1>Complaint Portal Dashboard</h1>
+    <button class="logout-btn" (click)="logout()">Logout</button>
+  </header>
+  
+  <nav class="dashboard-nav">
+    <a routerLink="/dashboard" class="nav-link">Dashboard</a>
+    <a routerLink="/new-complaint" class="nav-link">New Complaint</a>
+    <a routerLink="/profile" class="nav-link">Profile</a>
+  </nav>
+
+  <!-- Role-based dashboard -->
+  <app-student-dashboard *ngIf="userRole === 'student'"></app-student-dashboard>
+  <app-staff-dashboard *ngIf="userRole === 'staff'"></app-staff-dashboard>
+</div>

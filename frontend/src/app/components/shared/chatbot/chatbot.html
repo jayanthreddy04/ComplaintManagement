@@ -1,0 +1,25 @@
+<div class="chatbot-container">
+  <!-- Chat Button -->
+  <div class="chat-button" (click)="toggleChat()">
+    <span>💬</span>
+  </div>
+
+  <!-- Chat Window -->
+  <div class="chat-window" [class.open]="isOpen">
+    <div class="chat-header">
+      <h3>College Help Bot</h3>
+      <button class="close-btn" (click)="toggleChat()">×</button>
+    </div>
+    
+    <div class="chat-messages">
+      <div class="message bot-message">
+        <p>Hello! I'm here to help you with college-related queries. How can I assist you today?</p>
+      </div>
+    </div>
+    
+    <div class="chat-input">
+      <input type="text" placeholder="Type your message here...">
+      <button class="send-btn">Send</button>
+    </div>
+  </div>
+</div>

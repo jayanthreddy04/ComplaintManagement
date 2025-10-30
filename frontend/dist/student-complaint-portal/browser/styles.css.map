@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/styles.css"],
+  "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\n/* Global Styles */\r\n* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  font-family: 'Arial', sans-serif;\r\n  line-height: 1.6;\r\n  color: #333;\r\n}\r\n\r\nbutton {\r\n  cursor: pointer;\r\n  border: none;\r\n  outline: none;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}"],
+  "mappings": ";AAEA;AACE,UAAQ;AACR,WAAS;AACT,cAAY;AACd;AAEA;AACE,eAAa,OAAO,EAAE;AACtB,eAAa;AACb,SAAO;AACT;AAEA;AACE,UAAQ;AACR,UAAQ;AACR,WAAS;AACX;AAEA;AACE,mBAAiB;AACjB,SAAO;AACT;",
+  "names": []
+}

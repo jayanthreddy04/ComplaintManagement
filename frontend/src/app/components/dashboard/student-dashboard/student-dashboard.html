@@ -1,0 +1,31 @@
+<div class="student-dashboard">
+  <h1>Student Dashboard</h1>
+  
+  <div class="stats-container">
+    <div class="stat-card">
+      <h3>Total Complaints</h3>
+      <p class="stat-number">{{ totalComplaints }}</p>
+    </div>
+    <div class="stat-card">
+      <h3>Resolved</h3>
+      <p class="stat-number resolved">{{ resolvedComplaints }}</p>
+    </div>
+    <div class="stat-card">
+      <h3>In Progress</h3>
+      <p class="stat-number in-progress">{{ inProgressComplaints }}</p>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button class="new-complaint-btn" routerLink="/new-complaint">
+      + New Complaint
+    </button>
+  </div>
+
+  <div class="recent-complaints">
+    <h2>Recent Complaints</h2>
+    <div class="complaint-list">
+      <p>Your submitted complaints will appear here...</p>
+    </div>
+  </div>
+</div>
