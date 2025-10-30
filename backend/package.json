@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     
    
-    "postinstall":  "cd ../frontend && npm install && npm run build"
+    "postinstall":  "cd ../frontend && npm install && npm install -g @angular/cli && npm run build"
   },
   "keywords": [
     "college",
