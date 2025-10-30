@@ -1,6 +1,7 @@
 {
   "name": "student-complaint-portal",
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,7 +21,6 @@
       }
     ]
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "^20.3.7",
     "@angular/compiler": "^20.3.7",
